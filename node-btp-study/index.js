@@ -19,3 +19,5 @@ const port = process.env.PORT || 3002;
 server.listen(port, () => {
   console.log("Server started on port " + port);
 });
+
+var test = 10;
