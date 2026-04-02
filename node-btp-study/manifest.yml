@@ -1,0 +1,8 @@
+applications:
+  - name: my-node-app
+    memory: 256M
+    instances: 1
+    routes:
+    - route: simlpe2.cfapps.us10-001.hana.ondemand.com
+buildpacks:
+  - nodejs_buildpack
